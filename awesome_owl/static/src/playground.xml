@@ -8,6 +8,8 @@
         <br/>
         <Card title="'Card 1'" content="htmlContent"/>
         <Card title="'Card 2'" content="htmlContent"/>
+        <br/>
+        <TodoList />
     </t>
 
 </templates>
