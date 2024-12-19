@@ -9,10 +9,16 @@ export class TodoItem extends Component {
             type: Object,
             shape: { id: Number, description: String, isCompleted: Boolean }
         },
-        toggleState: Function
+        toggleState: Function,
+        removeTodo: Function,
     };
 
     onChange() {
         this.props.toggleState(this.props.todo.id);
+    }
+
+    onRemove() {
+        console.log("Test");
+        this.props.removeTodo(this.props.todo.id);
     }
 }
