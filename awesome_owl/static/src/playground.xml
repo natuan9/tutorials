@@ -6,8 +6,12 @@
         <Counter onChange.bind="incrementSum"/>
         <Counter onChange.bind="incrementSum"/>
         <br/>
-        <Card title="'Card 1'" content="htmlContent"/>
-        <Card title="'Card 2'" content="htmlContent"/>
+        <Card title="'Card 1'">
+            Content 1
+        </Card>
+        <Card title="'Card 2'">
+            <Counter/>
+        </Card>
         <br/>
         <TodoList />
     </t>
