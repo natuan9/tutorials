@@ -6,7 +6,7 @@ commandProviderRegistry.add("clicker", {
             {
                 name: "Buy 1 click bot",
                 action() {
-                    env.services["awesome_clicker.clicker"].buyBot("clickbot");
+                    env.services["awesome_clicker.clicker"].buyBot("clickBot");
                 },
             },
             {
